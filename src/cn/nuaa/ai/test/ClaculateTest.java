@@ -22,7 +22,7 @@ public class ClaculateTest {
 
 	@Test
 	public void testMultiply() {
-		assertEquals(6, new Claculate().multiply(2, 3));
+		assertEquals(12, new Claculate().multiply(2, 3));
 	}
 
 	@Test(expected = ArithmeticException.class)
